@@ -6,9 +6,9 @@
 /*background animado*/
 
 body {
-  background: linear-gradient(150deg, #003cff, #009c53e0, #3bd1ff);
+  background: linear-gradient(150deg, #003cffde, #00743ee0, #00c3ff);
   background-size: 400% 300%;
-  animation: BgGradient 10s ease infinite;
+  animation: BgGradient 7s ease infinite;
 }
 
 @keyframes BgGradient {
