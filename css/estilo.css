@@ -6,7 +6,7 @@
 /*background animado*/
 
 body {
-  background: linear-gradient(150deg, #004fc5, #009b6c, #02ccff);
+  background: linear-gradient(150deg, #003cff, #009c53e0, #3bd1ff);
   background-size: 400% 300%;
   animation: BgGradient 10s ease infinite;
 }
@@ -104,9 +104,9 @@ h6.nom {
 }
 
 h1.hl {
-  font-size: 40px;
-  color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  font-size: 45px;
+  color: rgb(0, 111, 175);
+  text-shadow: 3px 3px 3px black;
 }
 
 /*¿Quien soy?*/
