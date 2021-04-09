@@ -72,7 +72,7 @@ img.pre {
   width: 20%;
   height: 20%;
   border-radius: 140px;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 3px 3px 3px rgb(68, 68, 68);
 }
 
 .presentacion {
@@ -96,8 +96,8 @@ h6.nom {
 
 h1.hl {
   font-size: 45px;
-  color: rgb(0, 111, 175);
-  text-shadow: 3px 3px 3px black;
+  color: rgb(0, 131, 207);
+  text-shadow: 3px 3px 3px rgb(43, 43, 43);
   font-family: "DM Serif Display", serif;
 }
 
