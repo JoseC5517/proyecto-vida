@@ -6,7 +6,7 @@
 /*background animado*/
 
 body {
-  background: linear-gradient(150deg, #003cffde, #00743ee0, #00c3ff);
+  background: linear-gradient(150deg, #00249c, #00bd65e0, #008fbb);
   background-size: 400% 300%;
   animation: BgGradient 7s ease infinite;
 }
@@ -21,17 +21,6 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
-
-/*font-family de los Titulos*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "IBM Plex Serif", serif;
 }
 
 /*menu*/
@@ -101,12 +90,15 @@ img.pre {
 h6.nom {
   padding: 20px;
   text-transform: uppercase;
+  font-family: "Averia Serif Libre", cursive;
+  text-shadow: 1px 1px white;
 }
 
 h1.hl {
   font-size: 45px;
   color: rgb(0, 111, 175);
   text-shadow: 3px 3px 3px black;
+  font-family: "DM Serif Display", serif;
 }
 
 /*¿Quien soy?*/
@@ -126,10 +118,12 @@ h1.hl {
 }
 
 h1.quien {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 img.soy {
@@ -140,9 +134,9 @@ img.soy {
 
 .life {
   text-align: justify;
-  font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto", sans-serif;
-  padding: 5px;
+  font-family: "Gothic A1", sans-serif;
+  padding: 10px;
+  line-height: 30px;
 }
 
 /*Linea horizontal*/
@@ -181,20 +175,23 @@ hr {
   padding: 15px;
 }
 
-.feliz {
-  padding: 20px;
+.li-feliz {
+  line-height: 23px;
 }
 
 .feliz li {
-  padding: 10px;
-  font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 18px;
 }
+
 .cosas {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /*animacion*/
@@ -230,15 +227,17 @@ ul a.activo {
 
 .enojjado {
   padding: 20px;
-  font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 30px;
 }
 
 .porque {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .enojjado li {
@@ -255,7 +254,7 @@ ul a.activo {
     rgba(255, 255, 255, 1) 100%
   );
   width: 780px;
-  margin: 100px auto;
+  margin: 60px auto;
   padding: 60px;
   border-radius: 10px;
   box-shadow: 4px 4px 4px black;
@@ -272,17 +271,19 @@ ul a.activo {
 }
 
 .h-unico {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .p-unico {
   padding: 20px;
   text-align: justify;
-  font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 30px;
 }
 
 /*Test de personalidad*/
@@ -303,11 +304,13 @@ ul a.activo {
 }
 
 .test-pers {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
   text-align: left;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .img-pers {
@@ -333,11 +336,13 @@ ul a.activo {
   text-align: center;
 }
 .test-int {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
   text-align: left;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .img-int {
@@ -363,10 +368,12 @@ ul a.activo {
   text-align: left;
 }
 .h-porque {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 .img-porque {
   padding: 10px;
@@ -380,10 +387,9 @@ ul a.activo {
 .p-porque {
   text-align: justify;
   padding: 25px;
-  font-family: "IBM Plex Serif", serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 30px;
 }
-
 /*Metas*/
 
 .div-metas {
@@ -402,10 +408,12 @@ ul a.activo {
   text-align: justify;
 }
 .hl-metas {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .img-metas {
@@ -423,8 +431,9 @@ div.pr {
 
 .metas {
   padding: 10px;
-  font-family: "Comfortaa", cursive;
-  font-size: 13px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 17px;
+  font-size: 15px;
 }
 
 li.li-metas {
@@ -442,31 +451,34 @@ li.li-metas {
   );
   width: 780px;
   margin: 100px auto;
-  padding: 60px;
+  padding: 80px;
   border-radius: 10px;
   box-shadow: 4px 4px 4px black;
   text-align: left;
-  margin: 100px auto;
 }
 .p-agr {
   padding: 30px;
   text-align: left;
-  font-family: "Cairo", sans-serif;
+  font-family: "Yatra One", cursive;
 }
 .f-agr {
   text-align: right;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 .hl-agr {
-  font-size: 35px;
+  font-size: 45px;
   color: rgb(0, 82, 129);
   text-shadow: 2px 2px 2px black;
   padding: 20px;
+  font-family: "Averia Serif Libre", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 .agr {
   padding: 30px;
   text-align: justify;
 }
 .p-agrr {
-  font-family: "Dancing Script", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Satisfy", cursive;
   font-size: 20px;
 }
