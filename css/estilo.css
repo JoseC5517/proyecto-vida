@@ -54,7 +54,7 @@ a:hover {
 .mennu {
   display: flex;
   padding: 10px;
-  background-color: darkslategray;
+  background-color: rgb(71, 71, 71);
   list-style: none;
   text-align: center;
   box-shadow: 3px 3px 3px black;
@@ -399,6 +399,7 @@ ul a.activo {
   border-radius: 10px;
   box-shadow: 4px 4px 4px black;
   text-align: left;
+  text-align: justify;
 }
 .hl-metas {
   font-size: 35px;
@@ -422,7 +423,10 @@ div.pr {
 
 .metas {
   padding: 10px;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
 }
+
 li.li-metas {
   padding: 3px;
 }
@@ -447,6 +451,7 @@ li.li-metas {
 .p-agr {
   padding: 30px;
   text-align: left;
+  font-family: "Cairo", sans-serif;
 }
 .f-agr {
   text-align: right;
@@ -460,4 +465,8 @@ li.li-metas {
 .agr {
   padding: 30px;
   text-align: justify;
+}
+.p-agrr {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
 }
