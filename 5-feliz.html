@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5 cosas que me hacen feliz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = IBM + Plex + Serif: wght @ 600 & display = swap "
+      rel=" stylesheet "
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" href="imagenes/looogo (1).ico" />
+    <link rel="stylesheet" href="css/estilo.css" />
   </head>
   <body>
     <!--Menú de navegación-->
-    <ul>
+    <ul class="mennu">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="quien-soy.html">¿Quien soy?</a></li>
-      <li><a href="5-feliz.html">5 Cosas que me hacen Feliz</a></li>
+      <li>
+        <a class="activo" href="5-feliz.html">5 Cosas que me hacen Feliz</a>
+      </li>
       <li><a href="5-enojar.html">5 Cosas que me hacen Enojar</a></li>
       <li><a href="unico.html">¿Qué me hace Unico?</a></li>
       <li><a href="test-personalidad.html">Test de Personalidad</a></li>
@@ -21,20 +44,29 @@
       <li><a href="agradecimientos.html">Agradecimientos</a></li>
     </ul>
     <br />
-    <h1>5 Cosas que me hacen feliz</h1>
-    <p>
-      <img src="felizz.png" width="330" height="260" alt="feliz" />
-    </p>
-
-    <ol>
-      <li>Comer.</li>
-      <li>Dormir.</li>
-      <li>
-        Cuando me buscan para recibir algún consejo y me depositan una confianza
-        única.
-      </li>
-      <li>Jugar videos juegos y practicar algunos deportes.</li>
-      <li>Compartir entre familia o entre amistades.</li>
-    </ol>
+    <div class="feliz-div">
+      <h1 class="cosas animate__animated animate__flipInX">
+        5 Cosas que me hacen feliz
+      </h1>
+      <hr />
+      <img
+        class="imagen-feliz animate__animated animate__fadeInRight animate__slow"
+        src="imagenes/felizz.png"
+        width="330"
+        height="260"
+        alt="feliz"
+      />
+      <ol class="feliz animate__animated animate__fadeInUp">
+        <li>Comer.</li>
+        <li>Dormir.</li>
+        <li>
+          Cuando me buscan para recibir algún consejo y me depositan una
+          confianza única.
+        </li>
+        <li>Jugar videos juegos y practicar algunos deportes.</li>
+        <li>Compartir entre familia o entre amistades.</li>
+      </ol>
+      <div style="clear: both"></div>
+    </div>
   </body>
 </html>

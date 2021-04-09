@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*background animado*/
+
+body {
+  background: linear-gradient(150deg, #002cee, #009b6c, #02eeff);
+  background-size: 400% 300%;
+  animation: BgGradient 10s ease infinite;
+}
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*font-family de los Titulos*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+/*menu*/
+
+a {
+  text-decoration: none;
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: dashed;
+  color: rgb(128, 204, 255);
+}
+
+.mennu {
+  display: flex;
+  padding: 10px;
+  background-color: darkslategray;
+  list-style: none;
+  text-align: center;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 5px;
+  margin: auto;
+  font-size: 12px;
+}
+
+/*index*/
+
+.presentacion {
+  text-align: center;
+  width: 800px;
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+img.pre {
+  width: 20%;
+  height: 20%;
+  border-radius: 140px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.presentacion {
+  box-shadow: 4px 4px 4px black;
+}
+
+.presentacion {
+  flex-direction: row;
+}
+
+.vida {
+  padding: 5px;
+}
+
+h6.nom {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+h1.hl {
+  font-size: 40px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+}
+
+/*¿Quien soy?*/
+
+.quien-soy {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+}
+
+h1.quien {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+img.soy {
+  float: left;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.life {
+  text-align: justify;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+
+/*Linea horizontal*/
+
+hr {
+  margin: 0;
+  padding: 0;
+  width: 750px;
+  text-align: center;
+}
+
+/*5 cosas que me hacen feliz*/
+
+.feliz-div {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+}
+
+.cosas {
+  padding: 10px;
+}
+
+.imagen-feliz {
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.feliz {
+  padding: 20px;
+}
+
+.feliz li {
+  padding: 10px;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto", sans-serif;
+}
+.cosas {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+/*animacion*/
+
+ul a.activo {
+  text-decoration: dashed;
+  color: rgb(128, 204, 255);
+}
+
+/*5 cosas que me hacen enojar*/
+
+.enojado {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+}
+.ennojado {
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
+  padding: 15px;
+  width: 400px;
+  height: 280px;
+}
+
+.enojjado {
+  padding: 20px;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.porque {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+.enojjado li {
+  padding: 10px;
+}
+
+/*¿Qué me hace Unico?*/
+
+.unico {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+}
+
+.imagen-unico {
+  padding: 25px;
+  float: right;
+  margin-left: 20px;
+  padding: 15px;
+  width: 400px;
+  height: 280px;
+  border-radius: 30px;
+}
+
+.h-unico {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+.p-unico {
+  padding: 20px;
+  text-align: justify;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Test de personalidad*/
+
+.personalidad {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: center;
+}
+
+.test-pers {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+  text-align: left;
+}
+
+.img-pers {
+  width: 550px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/*Test de inteligencia*/
+
+.inteligencia {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: center;
+}
+.test-int {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+  text-align: left;
+}
+
+.img-int {
+  width: 550px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/*¿Porque decidí tomar el curso?*/
+
+.decidi {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: left;
+}
+.h-porque {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+.img-porque {
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
+  padding: 15px;
+  width: 400px;
+  height: 280px;
+}
+
+.p-porque {
+  text-align: justify;
+  padding: 25px;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Metas*/
+
+.div-metas {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 65px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: left;
+}
+.hl-metas {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+.img-metas {
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
+  padding: 15px;
+  width: 400px;
+  height: 280px;
+}
+
+div.pr {
+  padding: 10px;
+}
+
+.metas {
+  padding: 10px;
+}
+li.li-metas {
+  padding: 3px;
+}
+
+/*Agradecimientos*/
+
+.div-agr {
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 780px;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  text-align: left;
+  margin: 100px auto;
+}
+.p-agr {
+  padding: 30px;
+  text-align: left;
+}
+.f-agr {
+  text-align: right;
+}
+.hl-agr {
+  font-size: 35px;
+  color: rgb(0, 82, 129);
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+.agr {
+  padding: 30px;
+  text-align: justify;
+}

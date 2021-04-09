@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mis metas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = IBM + Plex + Serif: wght @ 600 & display = swap "
+      rel=" stylesheet "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" href="imagenes/looogo (1).ico" />
+    <link rel="stylesheet" href="css/estilo.css" />
   </head>
   <body>
     <!--Menú de navegación-->
-    <ul>
+    <ul class="mennu">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="quien-soy.html">¿Quien soy?</a></li>
       <li><a href="5-feliz.html">5 Cosas que me hacen Feliz</a></li>
@@ -17,30 +33,50 @@
       <li><a href="test-personalidad.html">Test de Personalidad</a></li>
       <li><a href="test-inteligencias.html">Test de inteligencias</a></li>
       <li><a href="decidi-curso.html">¿Por qué decidi hacer el curso?</a></li>
-      <li><a href="metas.html">Mis metas</a></li>
+      <li><a class="activo" href="metas.html">Mis metas</a></li>
       <li><a href="agradecimientos.html">Agradecimientos</a></li>
     </ul>
     <br />
-    <h1>Mis metas</h1>
-    <img src="metas.jpg" width="35%" height="30%" alt="metas" />
-    <p></p>
-    <h3>A corto plazo</h3>
-    <ul>
-      <li>Conseguir empleo.</li>
-      <li>Pasar todas las materias de este trimestre en la universidad</li>
-    </ul>
-    <p></p>
-    <h3>A mediano plazo</h3>
-    <ul>
-      <li>Culminar exitosamente el técnico en informática.</li>
-      <li>Seguir el curso de ingles.</li>
-    </ul>
-
-    <p></p>
-    <h3>A mediano plazo</h3>
-    <ul>
-      <li>Culminar la universidad y empezar una maestría</li>
-      <li>Trabajar para conseguir una casa propia, carro, etc.</li>
-    </ul>
+    <div class="div-metas">
+      <h1 class="hl-metas animate__animated animate__backInDown">Mis metas</h1>
+      <hr />
+      <img
+        class="img-metas animate__animated animate__fadeInTopRight"
+        src="imagenes/metas.jpg"
+        width="35%"
+        height="30%"
+        alt="metas"
+      />
+      <div class="pr animate__animated animate__fadeInUp animate__delay-1s">
+        <h3>A Corto Plazo:</h3>
+        <ul class="metas">
+          <li class="li-metas">Conseguir empleo.</li>
+          <li class="li-metas">
+            Pasar todas las materias de este trimestre en la universidad
+          </li>
+        </ul>
+      </div>
+      <div class="pr animate__animated animate__fadeInUp animate__delay-2s">
+        <h3>A Mediano Plazo:</h3>
+        <ul class="metas">
+          <li class="li-metas">
+            Culminar exitosamente el técnico en informática.
+          </li>
+          <li class="li-metas">Seguir el curso de ingles.</li>
+        </ul>
+      </div>
+      <div class="pr animate__animated animate__fadeInUp animate__delay-3s">
+        <h3>A Largo Plazo:</h3>
+        <ul class="metas">
+          <li class="li-metas">
+            Culminar la universidad y empezar una maestría
+          </li>
+          <li class="li-metas">
+            Trabajar para conseguir una casa propia, carro, etc.
+          </li>
+        </ul>
+      </div>
+      <div style="clear: both"></div>
+    </div>
   </body>
 </html>

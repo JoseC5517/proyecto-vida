@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5 cosas que me hacen enojar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" href="imagenes/looogo (1).ico" />
+    <link rel="stylesheet" href="css/estilo.css" />
   </head>
   <body>
     <!--Menú de navegación-->
-    <ul>
+    <ul class="mennu">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="quien-soy.html">¿Quien soy?</a></li>
       <li><a href="5-feliz.html">5 Cosas que me hacen Feliz</a></li>
-      <li><a href="5-enojar.html">5 Cosas que me hacen Enojar</a></li>
+      <li>
+        <a class="activo" href="5-enojar.html">5 Cosas que me hacen Enojar</a>
+      </li>
       <li><a href="unico.html">¿Qué me hace Unico?</a></li>
       <li><a href="test-personalidad.html">Test de Personalidad</a></li>
       <li><a href="test-inteligencias.html">Test de inteligencias</a></li>
@@ -21,17 +40,26 @@
       <li><a href="agradecimientos.html">Agradecimientos</a></li>
     </ul>
     <br />
-    <h1>5 Cosas que me hacen enojar</h1>
-    <p>
-      <img src="enojado.jpg" width="30%" height="30%" alt="enojado" />
-    </p>
-
-    <ol>
-      <li>No respetar mi opinión.</li>
-      <li>Que me quieran obligar a hacer algo.</li>
-      <li>Gente hipócrita</li>
-      <li>Que me comparen con alguien más.</li>
-      <li>Que me traten diferente.</li>
-    </ol>
+    <div class="enojado">
+      <h1 class="porque animate__animated animate__fadeInLeft">
+        5 Cosas que me hacen enojar
+      </h1>
+      <hr />
+      <img
+        class="ennojado animate__animated animate__rotateIn"
+        src="imagenes/enojado.jpg"
+        width="30%"
+        height="30%"
+        alt="enojado"
+      />
+      <ol class="enojjado animate__animated animate__fadeInDown">
+        <li>No respetar mi opinión.</li>
+        <li>Que me quieran obligar a hacer algo.</li>
+        <li>Gente hipócrita.</li>
+        <li>Que me comparen con alguien más.</li>
+        <li>Que me traten diferente.</li>
+      </ol>
+      <div style="clear: both"></div>
+    </div>
   </body>
 </html>
