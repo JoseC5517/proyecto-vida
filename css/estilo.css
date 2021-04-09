@@ -120,7 +120,7 @@ h1.hl {
 h1.quien {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -188,7 +188,7 @@ hr {
 .cosas {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -234,7 +234,7 @@ ul a.activo {
 .porque {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -273,7 +273,7 @@ ul a.activo {
 .h-unico {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -306,7 +306,7 @@ ul a.activo {
 .test-pers {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   text-align: left;
   font-family: "Averia Serif Libre", cursive;
@@ -338,7 +338,7 @@ ul a.activo {
 .test-int {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   text-align: left;
   font-family: "Averia Serif Libre", cursive;
@@ -370,7 +370,7 @@ ul a.activo {
 .h-porque {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -410,7 +410,7 @@ ul a.activo {
 .hl-metas {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
@@ -468,7 +468,7 @@ li.li-metas {
 .hl-agr {
   font-size: 45px;
   color: rgb(0, 82, 129);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Cormorant Garamond", serif;
